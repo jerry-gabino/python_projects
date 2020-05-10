@@ -7,7 +7,9 @@ def func(elem):
     return elem ** 2
 
 
-# map() applies function to each element of an iterable set
+# map() function applies given function to each
+# element of an iterable set
+
 square = map(func, my_list)
 
 # show list of numbers
