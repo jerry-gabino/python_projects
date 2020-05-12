@@ -10,11 +10,10 @@ letter_Dictionary = dict(letters)
 print(letter_Dictionary)
 
 # two lists
-indicies = [0, 1, 2]
+indexes = [0, 1, 2]
 letters = ["a", "b", "c"]
 
-
-zipped = zip(indicies, letters)
+zipped = zip(indexes, letters)
 print(zipped)
 letter_Dictionary = dict(zipped)
 print(letter_Dictionary)
